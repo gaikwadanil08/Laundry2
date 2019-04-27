@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".cloth_price_list.ClothPriceList">
+
+        <RelativeLayout
+            android:id="@+id/rel_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorBlue">
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:src="@drawable/ic_back"
+                tools:ignore="ContentDescription,RtlSymmetry" />
+
+            <TextView
+                android:id="@+id/tv_signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="35dp"
+                android:layout_toEndOf="@+id/iv_back"
+                android:gravity="center_vertical"
+                android:padding="10dp"
+                android:text="@string/select_clothes"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+
+        </RelativeLayout>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tab_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:elevation="6dp"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:tabSelectedTextColor="@color/colorDark"
+        app:tabTextColor="@color/colorWhite"
+        android:layout_below="@+id/rel_header"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/tab_layout" />
+
+    <RelativeLayout
+        android:id="@+id/rel_nextButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue"
+        android:layout_alignParentBottom="true"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/total"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_totalRS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/totalRS"
+            android:textColor="@color/colorWhite"
+            android:layout_toEndOf="@+id/tv_total"
+            android:layout_marginStart="15dp"
+            android:textSize="20sp" />
+        <View
+            android:id="@+id/view"
+            android:layout_width="1dp"
+            android:layout_height="25dp"
+            android:background="@color/colorWhite"
+            android:layout_toEndOf="@+id/tv_totalRS"
+            android:layout_marginStart="8dp"/>
+        <TextView
+            android:id="@+id/tv_totalItems"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/items"
+            android:textColor="@color/colorWhite"
+            android:layout_toEndOf="@+id/view"
+            android:layout_marginStart="8dp"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/tv_Items"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/addedItems"
+            android:textColor="@color/colorWhite"
+            android:layout_toEndOf="@+id/tv_totalItems"
+            android:layout_marginStart="8dp"
+            android:textSize="12sp"
+            android:paddingTop="5dp"/>
+
+        <TextView
+            android:id="@+id/tv_next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/next1"
+            android:textColor="@color/colorWhite"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="12dp"
+            android:textSize="20sp"
+            tools:ignore="RelativeOverlap" />
+    </RelativeLayout>
+
+</RelativeLayout>

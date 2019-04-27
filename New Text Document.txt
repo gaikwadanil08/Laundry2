@@ -1,0 +1,47 @@
+ <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_flat_no"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_flat_no"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/flat_no"
+                        android:inputType="none"
+                        android:paddingBottom="10dp"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_appt_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <android.support.design.widget.TextInputEditText
+                        android:id="@+id/et_appt_name"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:hint="@string/appt_name"
+                        android:inputType="none"
+                        android:paddingBottom="10dp"
+                        tools:ignore="RtlHardcoded,RtlSymmetry" />
+                </android.support.design.widget.TextInputLayout>
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/input_layout_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/tv_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_map"
+                    android:drawableEnd="@drawable/ic_map"
+                    android:padding="10dp"
+                    android:text="@string/map" />
+
+                </android.support.design.widget.TextInputLayout>

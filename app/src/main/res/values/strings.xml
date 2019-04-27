@@ -1,0 +1,337 @@
+<resources>
+    <string name="app_name">Laundry</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="reset_mobile">Enter Mobile Number</string>
+    <string name="password">Password</string>
+    <string name="login">login</string>
+    <string name="register">register</string>
+    <string name="forgot_pass">Forgot Password?</string>
+    <string name="agree">By proceeding, you agree to our</string>
+    <string name="TC">Terms and Conditions</string>
+    <string name="signup">SIGNUP</string>
+    <string name="already">Already registered? Login!</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="email">Email ID</string>
+    <string name="re_password">Confirm Password</string>
+    <string name="flat_no">Flat No / Door No</string>
+    <string name="appt_name">Apartment Name / Street Name</string>
+    <string name="map">Choose Location From Map</string>
+
+    <string name="err_msg_first_name">Enter your first name</string>
+    <string name="err_msg_last_name">Enter your last name</string>
+    <string name="err_msg_email">Enter valid email address</string>
+    <string name="err_msg_password">Enter password</string>
+    <string name="err_msg_re_password">Password not match</string>
+    <string name="err_msg_mobile">Enter your mobile number</string>
+    <string name="err_msg_flat_no">Enter your flat number</string>
+    <string name="err_msg_appt_name">Enter your apartment name</string>
+    <string name="err_msg_choose_location">Choose your location</string>
+    <string name="err_msg_map">Choose location</string>
+    <string name="or">OR</string>
+    <string name="btn_facebook">Facebook</string>
+    <string name="btn_google">Continue with Google</string>
+    <string name="forgot">Forgot Password</string>
+    <string name="otp">Enter OTP</string>
+    <string name="OTP">Enter OTP sent to your phone</string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="reset_password">New Password</string>
+    <string name="submit">Submit</string>
+    <string name="terms">Terms &amp; Conditions</string>
+    <string name="title">Title</string>
+    <string name="text">
+          \t   1. All garments/linen/fabrics are handled with greatest care but owing to the conditions of the articles
+        or non apparent/non-visible defects in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE.
+        Such garments are accepted for cleaning at OWNERS RISK and company will not accept any responsibility for it.\n
+        \n  \t   2. Company will use reasonable efforts to try to ensure that washing, drying and folding services are maintained at a
+        high level of quality.\n
+        </string>
+    <string name="text1">Payment Terms:</string>
+    <string name="textPaymentTerms">
+        \n  \t   1. Company does not provide printed bills, and invoices will be sent by e-mail only on
+        registered email id.
+     \n  \t   2. Customer will be charged twice the amount of regular order for any express delivery.
+     \n  \t   3. Customer has to pay the entire amount after successful delivery of order.
+     \n  \t   4. For retail orders, customer has to pay by cash only, we accept debit or credit cards as well, but for that customer
+        has to inform us beforehand.\n
+    </string>
+    <string name="text2">Cancellation / Refund Policy:</string>
+    <string name="textCancellation">
+        \n  \t   1. Any extra amount paid by customer for retail order can be refunded by the company if
+        customer ask.
+     \n  \t   2. Balance available in "Prepaid" plans are non-refundable and can not be transferred to any other customer.
+     \n  \t   3. User can cancel at any time before actual pick-up. No cancellation charges will be levied
+     \n  \t   4. In case company deny to process any article because of any reason, the order amount for that article will be
+        refunded to retail customer or will be added to prepaid balance for prepaid plan customer.\n
+    </string>
+    <string name="text3">Coupons &amp; Discounts:</string>
+    <string name="textCoupons">
+        \n  \t   1. Coupon can only be applied by customer using DhobiLite mobile app on available platform.
+        \n  \t   2. Once order placed and invoice is generated coupon cant be applied.\n
+</string>
+    <string name="text4">Coupons &amp; Discounts:</string>
+    <string name="textPolicy">
+        \n  \t   1. Company never sell your personal information like phone number, address or email id with any
+        third party.
+        \n  \t   2. Company may hire other companies to provide limited administrative and communication services on companies behalf,
+        such as hosting sites, the processing and delivery of mailings, providing customer support, or providing credit card 
+        processing services. \n
+    </string>
+
+    <string name="address">Address</string>
+    <string name="textAddress">\n  \t   Laundry Services Pvt. Ltd.\n  \t   #222, Basement Floor\n  \t   GK Complex, \n  \t\t   Pune, 413131\n</string>
+    <string name="contact">Contacts</string>
+    <string name="textContacts">\n  \t   Email : abc123@gmail.com\n  \t   Mobile No : 1234567890\n</string>
+    <string name="links">Links</string>
+    <string name="textLinks">\n  \t   Home\n  \t   Why Us\n  \t   About Us\n  \t   Contact Us\n  \t   Store Locator\n  \t   Download App\n  \t   Our Services\n  \t   How it Works\n</string>
+    <string name="textLinks1">\n  \t   Price List\n  \t   Store Locator\n  \t   Privacy\n  \t   Terms &amp; Conditions\n</string>
+
+    <string name="online">Book Online</string>
+    <string name="why_us">Why Us</string>
+    <string name="env">Environment Friendly Laundry Detergents</string>
+    <string name="environment_friendly">\n  \t   All garments/linen/fabrics are handled with greatest care but owing to the conditions
+        of the articles or non apparent/non-visible defects
+        in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE.
+        Such garments are accepted for cleaning at OWNERS RISK and company will not accept any responsibility for it.\n
+    </string>
+    <string name="endtoend">End to End Laundry Services</string>
+    <string name="endToend">\n  \t   All garments/linen/fabrics are handled with greatest care but owing to the conditions of the
+        articles or non apparent/non-visible defects
+        in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE.
+        Such garments are accepted for cleaning at OWNERS RISK and company will not accept any responsibility for it.\n
+    </string>
+    <string name="prof">Professional Trained</string>
+    <string name="professional">\n  \t   All garments/linen/fabrics are handled with greatest care but owing to the conditions of the
+        articles or non apparent/non-visible defects in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE.
+        Such garments are accepted for cleaning at OWNERS RISK and company will not accept any responsibility for it.\n
+    </string>
+    <string name="know">Know where your clothes are</string>
+    <string name="know_clothes">\n  \t   All garments/linen/fabrics are handled with greatest care but owing to the conditions of
+        the articles or non apparent/non-visible defects in its material there is a POSSIBILITY OF DISCOLOURING OR SHRINKAGE.
+        Such garments are accepted for cleaning at OWNERS RISK and company will not accept any responsibility for it.\n
+    </string>
+    <string name="store">Store Locator</string>
+    <string name="find_us">Find Us</string>
+    <string name="download_app">Download App</string>
+    <string name="on_mobile">Now we are on Mobile too</string>
+    <string name="get_app">Get our App</string>
+    <string name="our_services">Our Services</string>
+    <string name="steam_ironing">Steam Ironing</string>
+    <string name="dry_clean">Dry Cleaning ( Eco Friendly )</string>
+    <string name="premium_laundry">Pre-Laundry</string>
+    <string name="wash_fold">Wash &amp; Fold ( KG Basis )</string>
+    <string name="wash_iron">Wash &amp; Iron</string>
+
+    <string name="wash_iron_kg">Wash &amp; Iron ( KG Basis )</string>
+    <string name="how_it_works">How It Works</string>
+
+    <string name="drop_off">
+        \n  \t   1. Schedule a pickup.
+        \n  \t   2. Field agent pickup the garment.
+        \n  \t   3. On completion of service you will receive an \t \t intimation.
+        \n  \t   4. Pay online or choose COD.\n</string>
+    <string name="door_to_door">
+        \n  \t   1. Drop your garment at our nearest store.
+        \n  \t   2. We complete the required service.
+        \n  \t   3. On completion of service you will receive an   intimation.
+        \n  \t   4. Visit our store and have the clothes picked by paying the bill amount.\n</string>
+
+    <string name="Door_to_door">Door To Door</string>
+    <string name="Drop_off">Drop Off</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="message">Message</string>
+    <string name="register_otp">Enter OTP sent to your mobile number</string>
+    <string name="OTP_register">Enter OTP</string>
+    <string name="cancel">Cancel</string>
+    <string name="price_list">Price List</string>
+    <string name="garments">Garments</string>
+    <string name="dry_clean1">Dry Clean</string>
+    <string name="premium_laundry1">Premium Laundry</string>
+    <string name="about_us">About Us</string>
+    <string name="about_us_string">Super Suds is a family-owned and community-based Laundromat. We are dedicated to providing the 
+        best service and cleanest and best-stocked facility possible. We are a small business, but our Long Beach facility is 
+        huge—we have washing machines in a variety of sizes to handle even your biggest loads and enough dryers to guarantee 
+        there will always be one when you need it. We are fully staffed with a team of friendly and knowledgeable Customer Service
+        Representatives who are here to help any time you have a question or need help.\n
+        Super Suds offers so much more than just washers and dryers. We also offer Wash N Fold, Dry Cleaning, Laundry Pickup 
+        and Delivery Service, mailbox rental, parking space rental, and a self-service dog wash. We offer commercial laundry 
+        services to local businesses from spas and gyms to hotels and medical facilities—including free pickup and delivery 
+        with every order.\n</string>
+    <string name="title_activity_login">Sign in</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="dashboard">Dashboard</string>
+    <string name="book_pickup">Book Pickup</string>
+    <string name="washIron">Wash &amp; Iron</string>
+    <string name="dryClean">Dry Cleaning</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="date">Select Date &amp; Time</string>
+    <string name="select_date">Select Pick_Up date</string>
+    <string name="today_date">Today, 01/01/19</string>
+    <string name="tommarro_date">Tomorrow, 02/01/19</string>
+
+    <string name="day_3rd_date">03/01/19</string>
+    <string name="select_time">Select Pick Up Time</string>
+    <string name="today_time1">9:00 AM to 10:00 AM</string>
+    <string name="today_time2">10:00 to 11:00 AM</string>
+    <string name="today_time3">11:00 to 12:00 PM</string>
+    <string name="today_time4">12:00 PM to 1:00 PM</string>
+    <string name="today_time5">1:00 PM to 2:00 PM</string>
+    <string name="today_time6">2:00 PM to 3:00 PM</string>
+    <string name="today_time7">3:00 PM to 4:00 PM</string>
+    <string name="today_time8">4:00 PM to 5:00 PM</string>
+    <string name="today_time9">5:00 PM to 6:00 PM</string>
+    <string name="today_time10">6:00 PM to 7:00 PM</string>
+    <string name="next">Next</string>
+    <string name="next1">Next > </string>
+    <string name="select_delivery_date">Select Delivery Date</string>
+    <string name="select_delivery_time">Select Delivery Time</string>
+    <string name="all_services">All Services</string>
+    <string name="donate">Donate Clothes</string>
+    <string name="save">Save</string>
+    <string name="donate_cloth">We are come to you and collect cloth.\nThank you for Donating.\n</string>
+    <string name="final_report">Final Report</string>
+    <string name="report_name">Name   :</string>
+    <string name="report_email">Email Id   :</string>
+    <string name="report_mobile">Mobile No   :</string>
+    <string name="report_location">Location   :</string>
+    <string name="report_clothes">Total Clothes   :</string>
+    <string name="report_amt">Total Amt   :</string>
+    <string name="report_pickup_date">Pickup Date   :</string>
+    <string name="report_delivery">Delivery Date   :</string>
+    <string name="ok">OK</string>
+    <string name="profile">Profile</string>
+    <string name="profile_first_name">First Name :</string>
+    <string name="profile_last_name">Last Name :</string>
+    <string name="profile_personal">Personal Information</string>
+    <string name="profile_email">Email Id :</string>
+    <string name="profile_full_name">Full Name :</string>
+    <string name="profile_mobile">Mobile No :</string>
+    <string name="profile_comm">Address for Communication</string>
+    <string name="profile_flat_no">Flat/Door No :</string>
+    <string name="profile_appt_name">Appt Name :</string>
+    <string name="profile_map">Location on Map</string>
+    <string name="name">Name :</string>
+    <string name="edit">Edit</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="myOrder">My Orders</string>
+    <string name="editProfile">Edit Profile</string>
+    <string name="rateCard">Rate Card</string>
+    <string name="others">Others</string>
+    <string name="support">Support</string>
+    <string name="termsOfUse">Terms of Use</string>
+    <string name="logout">Logout</string>
+    <string name="swipeRight">Swipe Right</string>
+
+    <string name="title_activity_pickup_deliver">PickupDeliver</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="delivery">Delivery</string>
+    <string name="pickup">Pick Up</string>
+
+    <string name="title_activity_cloth_price_list">Select Clothes</string>
+    <string name="select_clothes">Select Clothes</string>
+    <string name="men">Man</string>
+    <string name="women">Woman</string>
+    <string name="kids">Kids</string>
+    <string name="saveNext">Save &amp; Next</string>
+    <string name="clothes">Clothes</string>
+    <string name="qty">QTY</string>
+    <string name="total_qty">Total Qty :</string>
+    <string name="aparment_name">Appt Name</string>
+    <string name="new_users">New Users</string>
+    <string name="laundry_mans">Laundry Mans</string>
+    <string name="companies">Companies</string>
+    <string name="total_jobs">Total Jobs</string>
+    <string name="review">Reviews</string>
+    <string name="ongoing_jobs">Ongoing Jobs</string>
+    <string name="total_earning">Total Earnings</string>
+    <string name="cancelled_jobs">Cancelled Jobs</string>
+    <string name="completed_jobs">Completed Jobs</string>
+    <string name="err_msg_name">Enter your Full Name</string>
+    <string name="contact_name">Enter Full Name</string>
+    <string name="err_msg_message">Type your Message here</string>
+    <string name="btn_home">Home</string>
+    <string name="addStore">Add New Store</string>
+    <string name="enterStore">Enter Store Name</string>
+    <string name="pune">Pune</string>
+    <string name="heading">Enter Heading</string>
+    <string name="desc">Enter Description</string>
+    <string name="btn_addWhyUs">Add</string>
+    <string name="add">Add</string>
+    <string name="err_msg_heading">Enter Heading Here</string>
+    <string name="err_msg_desc">Enter Description Here</string>
+    <string name="dryCleaningServices">Dry Cleaning Services</string>
+    <string name="steamIroningServices">Steam Ironing Services</string>
+    <string name="premiumLaundryServices">Premium Laundry Services</string>
+    <string name="washIronServices">Wash and Iron Services</string>
+    <string name="tshirt">T-shirt</string>
+    <string name="servicePrice">\u20B9 10</string>
+    <string name="clothQty">0</string>
+    <string name="selectService">Select Service</string>
+
+    <string name="facebook_app_id">282518409084395</string>
+
+    // for google integration
+    <string name="btn_logout_from_google">Logout from Google</string>
+    <string name="btn_revoke_access">Revoke Access</string>
+    <string name="loading">Loading</string>
+
+    <string name="spinner_title">Select Store</string>
+    <string name="title_activity_store_location_on_map">Map</string>
+    <string name="link_home">Home</string>
+    <string name="link_whyUs">Why Us</string>
+    <string name="link_aboutUs">About Us</string>
+    <string name="link_contactUs">Contact Us</string>
+    <string name="link_storeLocator">Store Locator</string>
+    <string name="link_downloadApp">Download App</string>
+    <string name="link_ourServices">Our Services</string>
+    <string name="link_howItWorks">How it Works</string>
+    <string name="link1_priceList">Price List</string>
+
+    <string name="total">Total</string>
+    <string name="totalRS">\u20B9 100</string>
+    <string name="items">8</string>
+    <string name="addedItems">items added</string>
+    <string name="select_dateTime">Select Date &amp; Time</string>
+    <string name="confirmOrder">Confirm Order</string>
+    <string name="reviewOrder">Review Order</string>
+    <string name="yourClothes">Your Clothes</string>
+    <string name="addAddress">Add Address</string>
+    <string name="enterAddress">Enter address here</string>
+    <string name="selectLocation">Select location on Map</string>
+    <string name="selectAddressOnMap">Select Address on Map</string>
+    <string name="selectAddress">Select Address</string>
+    <string name="clothQty1">5</string>
+    <string name="multiply">x</string>
+    <string name="type">Man</string>
+    <string name="service">wash &amp; Iron</string>
+    <string name="price">\u20B9 50</string>
+    <string name="addMore">Add more</string>
+    <string name="subTotal">Sub Total</string>
+    <string name="subTotalRs">\u20B9 120</string>
+    <string name="tax">Tax</string>
+    <string name="taxRs">\u20B9 15</string>
+    <string name="payableAmt">Payable Amount</string>
+    <string name="payableAmtRs">\u20B9 135</string>
+    <string name="NoNetworkFound">No Network Found</string>
+
+
+</resources>

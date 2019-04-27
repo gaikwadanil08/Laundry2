@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".download_app.DownloadApp">
+
+    <RelativeLayout
+        android:id="@+id/rel_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingStart="15dp"
+            android:paddingEnd="15dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="50dp"
+            android:layout_toEndOf="@+id/iv_back"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/terms"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/rel_logo_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_header"
+        android:background="@drawable/shape_login"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:contentDescription="TODO"
+            tools:ignore="ContentDescription,HardcodedText" />
+
+        <TextView
+            android:id="@+id/tv_menu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/ic_menu"
+            android:paddingStart="10dp"
+            android:paddingEnd="10dp"
+            tools:ignore="RelativeOverlap,RtlHardcoded" />
+    </RelativeLayout>
+
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_logo_menu"
+        android:layout_alignParentStart="true"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:id="@+id/ll_download_app"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_download_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_login"
+                android:gravity="center"
+                android:text="@string/download_app"
+                android:textColor="@color/colorBlue"
+                android:textSize="45sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/tv_we_are_on_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/on_mobile"
+                android:textSize="25sp"
+                android:textStyle="italic|bold" />
+
+            <TextView
+                android:id="@+id/tv_get_app"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/get_app"
+                android:textColor="@color/colorBlue"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:id="@+id/ll_google_appStore"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/shape_login"
+                android:paddingTop="30dp"
+                android:paddingLeft="60dp"
+                android:paddingBottom="40dp"
+                android:paddingRight="60dp">
+
+                <TextView
+                    android:id="@+id/tv_google_play"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/google_play"
+                    android:text="@string/get_app"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/tv_app_store"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:background="@drawable/app_store"
+                    android:text="@string/get_app"
+                    android:layout_marginTop="20dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_terms"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/shape_login"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_address"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape_btn_login"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_login"
+                        android:gravity="center"
+                        android:text="@string/address"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/address"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/shape_login"
+                        android:text="@string/textAddress"
+                        android:textColor="@color/colorPrimaryDra" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_contacts"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape_btn_login"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_login"
+                        android:gravity="center"
+                        android:text="@string/contact"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <me.biubiubiu.justifytext.library.JustifyTextView
+                        android:id="@+id/contact"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/shape_login"
+                        android:text="@string/textContacts"
+                        android:textColor="@color/colorPrimaryDra" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_links1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/shape_btn_login"
+                    android:orientation="vertical"
+                    android:padding="10dp">
+
+                    <TextView
+                        android:id="@+id/tv_links"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_login"
+                        android:gravity="center"
+                        android:text="@string/links"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="20sp"
+                        android:textStyle="bold" />
+
+                    <RelativeLayout
+                        android:id="@+id/rl_links1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginTop="5dp"
+
+                        android:padding="10dp"
+                        android:background="@drawable/shape_login">
+
+                        <TextView
+                            android:id="@+id/tv_link_home"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_home"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_whyUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_whyUs"
+                            android:layout_below="@+id/tv_link_home"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_aboutUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_aboutUs"
+                            android:layout_below="@+id/tv_link_whyUs"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_contactUs"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_contactUs"
+                            android:layout_below="@+id/tv_link_aboutUs"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_priceList"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link1_priceList"
+                            android:layout_below="@+id/tv_link_contactUs"
+                            android:textColor="@color/colorPrimaryDra" />
+
+                        <TextView
+                            android:id="@+id/tv_link_storeLocator"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_storeLocator"
+                            android:layout_toEndOf="@+id/tv_link_home"
+                            android:layout_marginStart="90dp"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_downloadApp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_downloadApp"
+                            android:layout_toEndOf="@+id/tv_link_whyUs"
+                            android:layout_below="@+id/tv_link_storeLocator"
+                            android:layout_marginStart="80dp"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_ourServices"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_ourServices"
+                            android:layout_toEndOf="@+id/tv_link_aboutUs"
+                            android:layout_below="@+id/tv_link_downloadApp"
+                            android:layout_marginStart="70dp"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_howItWorks"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_howItWorks"
+                            android:layout_marginStart="58dp"
+                            android:layout_toEndOf="@+id/tv_link_contactUs"
+                            android:layout_below="@+id/tv_link_aboutUs"
+                            android:textColor="@color/colorPrimaryDra" />
+                        <TextView
+                            android:id="@+id/tv_link_termsCond"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/link_howItWorks"
+                            android:layout_marginStart="70dp"
+                            android:layout_toEndOf="@+id/tv_link_priceList"
+                            android:layout_below="@+id/tv_link_howItWorks"
+                            android:textColor="@color/colorPrimaryDra" />
+
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

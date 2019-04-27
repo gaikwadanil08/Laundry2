@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profile.Profile">
+
+    <RelativeLayout
+        android:id="@+id/rel_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/tv_signup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="55dp"
+            android:layout_toEndOf="@+id/iv_back"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/profile"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btn_save"
+        android:layout_below="@+id/rel_header"
+        android:padding="10dp"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_login"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_first_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/profile_first_name"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_profile_first_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10sp"
+                android:layout_toEndOf="@+id/tv_first_name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_last_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_first_name"
+                android:padding="10dp"
+                android:text="@string/profile_last_name"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_profile_last_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_profile_first_name"
+                android:layout_marginStart="10sp"
+                android:layout_toEndOf="@+id/tv_last_name"
+                android:inputType="text"
+                android:padding="10dp"
+                android:textSize="15sp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_personal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_profile_last_name"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_register"
+                android:gravity="center"
+                android:text="@string/profile_personal"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_personal"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="@string/profile_email"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_profile_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_personal"
+                android:layout_marginStart="24sp"
+                android:layout_toEndOf="@+id/tv_email"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:textSize="15sp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="@string/profile_mobile"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_profile_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_profile_email"
+                android:layout_marginStart="24sp"
+                android:layout_toEndOf="@+id/tv_email"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="15sp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_comm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_mobile"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_register"
+                android:gravity="center"
+                android:text="@string/profile_comm"
+                android:textSize="20sp"
+                android:textColor="@color/colorWhite"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_flat_no"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_comm"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="@string/profile_flat_no"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_profile_flat_no"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_comm"
+                android:layout_toEndOf="@+id/tv_flat_no"
+                android:inputType="number"
+                android:padding="10dp"
+                android:textSize="15sp"
+                tools:ignore="Autofill,LabelFor" />
+
+            <TextView
+                android:id="@+id/tv_appt_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_flat_no"
+                android:layout_marginTop="5dp"
+                android:padding="10dp"
+                android:text="@string/profile_appt_name"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/et_profile_appt_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/et_profile_flat_no"
+                android:layout_toEndOf="@+id/tv_appt_name"
+                android:layout_marginStart="10sp"
+                android:padding="10dp"
+                android:textSize="15sp"
+                tools:ignore="Autofill,LabelFor,TextFields" />
+
+            <TextView
+                android:id="@+id/tv_map"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_appt_name"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/shape_login"
+                android:drawableEnd="@drawable/ic_map"
+                android:padding="10dp"
+                android:text="@string/profile_map"
+                android:textSize="15sp" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorBlue"
+        android:text="@string/save"
+        android:textColor="@color/colorWhite"
+        android:textSize="15sp" />
+</RelativeLayout>

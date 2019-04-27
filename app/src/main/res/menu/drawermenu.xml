@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/dashboard"
+        android:icon="@drawable/ic_dashboard"
+        android:title="@string/dashboard" />
+    <item
+        android:id="@+id/myOrders"
+        android:icon="@drawable/ic_orders"
+        android:title="@string/myOrder" />
+    <item
+        android:id="@+id/editProfile"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/editProfile" />
+    <item
+        android:id="@+id/rateCard"
+        android:icon="@drawable/ic_rate_card"
+        android:title="@string/rateCard" />
+    <item
+        android:id="@+id/donateCloth"
+        android:icon="@drawable/ic_donate"
+        android:title="@string/donate" />
+    <item
+        android:id="@+id/other"
+        android:icon="@drawable/ic_other"
+        android:title="@string/others" />
+    <item
+        android:id="@+id/support"
+        android:icon="@drawable/ic_support"
+        android:title="@string/support" />
+    <item
+        android:id="@+id/termsOfUse"
+        android:icon="@drawable/ic_term"
+        android:title="@string/termsOfUse" />
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+</menu>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#f26767</color>
+
+    <color name="colorSplash">#7D86DA</color>
+    <color name="colorWhite">#fff</color>
+    <color name="colorBlack">#000</color>
+    <color name="colorBlue">#7D86DA</color>
+    <color name="colorFaintBlue">#BBBEE6</color>
+    <color name="colorRed">#e9394d</color>
+
+    <color name="colorLogoBackground">#84babf</color>
+    <color name="colorDark">#0f2eda</color>
+
+    <color name="colorNormal">#c8cbde</color>
+
+    //colors for navigation drawer
+    <color name="colorPrimaryDra">#795548</color>
+    <color name="colorPrimaryDrawer">#5D4037</color>
+    <color name="colorDarkGray">#6c6c6c</color>
+</resources>

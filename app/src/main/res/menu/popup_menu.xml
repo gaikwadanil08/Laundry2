@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/terms_cond"
+        android:title="Terms and Conditions" />
+    <item android:id="@+id/price_list"
+        android:title="Price List" />
+    <item android:id="@+id/store_locator"
+        android:title="Store Locator" />
+    <item android:id="@+id/why_us"
+        android:title="Why Us" />
+    <item android:id="@+id/download_app"
+        android:title="Download App" />
+    <item android:id="@+id/about_us"
+        android:title="About Us" />
+    <item android:id="@+id/our_services"
+        android:title="Our Services" />
+    <item android:id="@+id/how_it_works"
+        android:title="How It Works" />
+    <item android:id="@+id/contact_us"
+        android:title="Contact Us" />
+</menu>

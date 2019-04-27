@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".reports.FinalReport">
+
+    <RelativeLayout
+        android:id="@+id/rel_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBlue">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:src="@drawable/ic_back"
+            tools:ignore="ContentDescription,RtlSymmetry" />
+
+
+        <TextView
+            android:id="@+id/tv_report_heading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="35dp"
+            android:layout_toEndOf="@+id/iv_back"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/final_report"
+            android:textColor="@color/colorWhite"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rel_header"
+        android:padding="10dp"
+        android:scrollbars="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_login"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="@string/report_name"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50sp"
+                android:layout_toEndOf="@+id/tv_name"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_name"
+                android:padding="10dp"
+                android:text="@string/report_email"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_report_name"
+                android:layout_marginStart="33sp"
+                android:layout_toEndOf="@+id/tv_email"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_mobile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_email"
+                android:padding="10dp"
+                android:text="@string/report_mobile"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_report_email"
+                android:layout_marginStart="13sp"
+                android:layout_toEndOf="@+id/tv_mobile"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_location"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_mobile"
+                android:padding="10dp"
+                android:text="@string/report_location"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_location"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_report_mobile"
+                android:layout_marginStart="29sp"
+                android:layout_toEndOf="@+id/tv_location"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_clothes"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_location"
+                android:padding="10dp"
+                android:text="@string/report_clothes"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_clothes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_report_location"
+                android:layout_toEndOf="@+id/tv_clothes"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_amt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_clothes"
+                android:padding="10dp"
+                android:text="@string/report_amt"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_amt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_clothes"
+                android:layout_marginStart="21sp"
+                android:layout_toEndOf="@+id/tv_amt"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_pickup_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_amt"
+                android:padding="10dp"
+                android:text="@string/report_pickup_date"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_pickup_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_report_amt"
+                android:layout_marginStart="3sp"
+                android:layout_toEndOf="@+id/tv_pickup_date"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_delivery_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_pickup_date"
+                android:padding="10dp"
+                android:text="@string/report_delivery"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/tv_report_delivery_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_report_pickup_date"
+                android:layout_toEndOf="@+id/tv_delivery_date"
+                android:padding="10dp"
+                android:text=""
+                android:textSize="20sp" />
+
+            <Button
+                android:id="@+id/btn_save"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_delivery_date"
+                android:layout_marginTop="20sp"
+                android:background="@color/colorBlue"
+                android:text="@string/ok"
+                android:textColor="@color/colorWhite"
+                android:textSize="20sp" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
